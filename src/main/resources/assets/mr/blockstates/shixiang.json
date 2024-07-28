@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mr:block/shixiang"
+    },
+    "facing=south": {
+      "model": "mr:block/shixiang",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mr:block/shixiang",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "mr:block/shixiang",
+      "y": 90
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.unknown",
+				"texture_width": 128,
+				"texture_height": 128,
+				"visible_bounds_width": 6,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "pvpboss",
+					"pivot": [0, 14, 0]
+				},
+				{
+					"name": "head",
+					"parent": "pvpboss",
+					"pivot": [0, 30, 0],
+					"cubes": [
+						{"origin": [-4, 26, -4], "size": [8, 8, 8], "uv": [0, 36]}
+					]
+				},
+				{
+					"name": "body",
+					"parent": "pvpboss",
+					"pivot": [0, 8, 0],
+					"cubes": [
+						{"origin": [-10, 18, -5], "size": [10, 8, 10], "uv": [30, 26]},
+						{"origin": [0, 18, -5], "size": [10, 8, 10], "uv": [30, 8]},
+						{"origin": [-8, 12, -4], "size": [8, 6, 8], "uv": [24, 58]},
+						{"origin": [0, 12, -4], "size": [8, 6, 8], "uv": [0, 52]},
+						{"origin": [0, 6, -3], "size": [7, 6, 6], "uv": [64, 20]},
+						{"origin": [-7, 6, -3], "size": [7, 6, 6], "uv": [60, 0]},
+						{"origin": [0, 2, -2], "size": [6, 4, 4], "uv": [0, 66]},
+						{"origin": [-6, 2, -2], "size": [6, 4, 4], "uv": [30, 0]}
+					]
+				},
+				{
+					"name": "leftarm",
+					"parent": "pvpboss",
+					"pivot": [14, 23, 0],
+					"cubes": [
+						{"origin": [10, 18, -5], "size": [10, 8, 10], "uv": [0, 18]}
+					]
+				},
+				{
+					"name": "leftarm2",
+					"parent": "leftarm",
+					"pivot": [21, 22, 0],
+					"cubes": [
+						{"origin": [20, 19, -4], "size": [8, 6, 8], "uv": [48, 50]},
+						{"origin": [28, 20, -3], "size": [6, 4, 6], "uv": [56, 64]}
+					]
+				},
+				{
+					"name": "rightarm",
+					"parent": "pvpboss",
+					"pivot": [-14, 23, 0],
+					"cubes": [
+						{"origin": [-20, 18, -5], "size": [10, 8, 10], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "rightarm2",
+					"parent": "rightarm",
+					"pivot": [-21, 22, 1],
+					"cubes": [
+						{"origin": [-28, 19, -4], "size": [8, 6, 8], "uv": [24, 44]},
+						{"origin": [-34, 20, -3], "size": [6, 4, 6], "uv": [64, 38]}
+					]
+				}
+			]
+		}
+	]
+}

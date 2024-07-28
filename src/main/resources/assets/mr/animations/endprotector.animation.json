@@ -1,0 +1,423 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"rest": {
+			"animation_length": 3.25,
+			"bones": {
+				"leftarm": {
+					"rotation": {
+						"vector": [0, 0, 90]
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, 1, 0]
+						},
+						"2.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"rightarm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, -90]
+						},
+						"1.0": {
+							"vector": [0, 0, -90]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, 1, 0]
+						},
+						"2.0": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"move": {
+			"loop": true,
+			"bones": {
+				"pvpboss": {
+					"rotation": {
+						"vector": [5, 0, 0]
+					}
+				},
+				"leftarm": {
+					"rotation": {
+						"vector": [0, 15, 85]
+					}
+				},
+				"rightarm": {
+					"rotation": {
+						"vector": [0, -15, -85]
+					}
+				},
+				"leftarm2": {
+					"rotation": {
+						"vector": [0, 7.5, 0]
+					}
+				},
+				"rightarm2": {
+					"rotation": {
+						"vector": [0, -7.5, 0]
+					}
+				}
+			}
+		},
+		"attack1": {
+			"animation_length": 2,
+			"bones": {
+				"head": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.75": {
+							"vector": [-10, 0, 0]
+						},
+						"1.0": {
+							"vector": [50, 0, 0]
+						},
+						"1.25": {
+							"vector": [55, 0, 0]
+						},
+						"1.75": {
+							"vector": [0, 0, 0]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.75": {
+							"vector": [0, -0.5, 2]
+						},
+						"1.0": {
+							"vector": [0, -7, -16]
+						},
+						"1.25": {
+							"vector": [0, -7, -17]
+						},
+						"1.75": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"body": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.75": {
+							"vector": [-5, 0, 0]
+						},
+						"1.0": {
+							"vector": [40, 0, 0]
+						},
+						"1.25": {
+							"vector": [45, 0, 0]
+						},
+						"1.75": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"leftarm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 90]
+						},
+						"0.75": {
+							"vector": [0, 155, 90]
+						},
+						"1.0": {
+							"vector": [0, 25, 90]
+						},
+						"1.25": {
+							"vector": [0, 25, 90]
+						},
+						"1.75": {
+							"vector": [0, 0, 90]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, -5, -6]
+						},
+						"1.25": {
+							"vector": [0, -6, -6]
+						},
+						"1.75": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"rightarm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, -90]
+						},
+						"0.75": {
+							"vector": [0, -155, -90]
+						},
+						"1.0": {
+							"vector": [0, -25, -90]
+						},
+						"1.25": {
+							"vector": [0, -25, -90]
+						},
+						"1.75": {
+							"vector": [0, 0, -90]
+						}
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"1.0": {
+							"vector": [0, -5, -6]
+						},
+						"1.25": {
+							"vector": [0, -6, -6]
+						},
+						"1.75": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"leftarm2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.75": {
+							"vector": [0, 0, 30]
+						},
+						"1.25": {
+							"vector": [0, 0, 35]
+						},
+						"1.75": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"rightarm2": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.75": {
+							"vector": [0, 0, -30]
+						},
+						"1.25": {
+							"vector": [0, 0, -35]
+						},
+						"1.75": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"attack2": {
+			"animation_length": 12.5,
+			"bones": {
+				"pvpboss": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0]
+						},
+						"0.5": {
+							"vector": [0, 0, 0],
+							"easing": "easeInOutQuad"
+						},
+						"9.0": {
+							"vector": [0, 8280, 0],
+							"easing": "easeInOutSine"
+						},
+						"9.0417": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"head": {
+					"rotation": {
+						"9.5": {
+							"vector": [0, 0, 0]
+						},
+						"10.0": {
+							"vector": [90, 0, 0]
+						},
+						"10.5": {
+							"vector": [80, 0, 0]
+						},
+						"11.0": {
+							"vector": [90, 0, 0]
+						},
+						"11.5": {
+							"vector": [80, 0, 0]
+						},
+						"12.0": {
+							"vector": [90, 0, 0]
+						},
+						"12.5": {
+							"vector": [0, 0, 0]
+						}
+					},
+					"position": {
+						"9.5": {
+							"vector": [0, 0, 0]
+						},
+						"10.0": {
+							"vector": [0, -10, -19],
+							"easing": "easeOutSine"
+						},
+						"12.0": {
+							"vector": [0, -10, -19],
+							"easing": "easeOutSine"
+						},
+						"12.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"body": {
+					"rotation": {
+						"9.5": {
+							"vector": [0, 0, 0]
+						},
+						"10.0": {
+							"vector": [45, 0, 0]
+						},
+						"12.0": {
+							"vector": [45, 0, 0]
+						},
+						"12.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"leftarm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 90]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						},
+						"9.0": {
+							"vector": [0, 0, 0]
+						},
+						"9.5": {
+							"vector": [0, 0, 90]
+						},
+						"10.0": {
+							"vector": [0, 10, 90]
+						},
+						"12.0": {
+							"vector": [0, 10, 90]
+						},
+						"12.5": {
+							"vector": [0, 0, 90]
+						}
+					},
+					"position": {
+						"9.5": {
+							"vector": [0, 0, 0]
+						},
+						"10.0": {
+							"vector": [0, -5, -9]
+						},
+						"12.0": {
+							"vector": [0, -5, -9]
+						},
+						"12.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				},
+				"rightarm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, -90]
+						},
+						"0.5": {
+							"vector": [0, 0, 0]
+						},
+						"9.0": {
+							"vector": [0, 0, 0]
+						},
+						"9.5": {
+							"vector": [0, 0, -90]
+						},
+						"10.0": {
+							"vector": [0, -10, -90]
+						},
+						"12.0": {
+							"vector": [0, -10, -90]
+						},
+						"12.5": {
+							"vector": [0, 0, -90]
+						}
+					},
+					"position": {
+						"9.5": {
+							"vector": [0, 0, 0]
+						},
+						"10.0": {
+							"vector": [0, -5, -9]
+						},
+						"12.0": {
+							"vector": [0, -5, -9]
+						},
+						"12.5": {
+							"vector": [0, 0, 0]
+						}
+					}
+				}
+			}
+		},
+		"summon": {
+			"animation_length": 1.5,
+			"bones": {
+				"pvpboss": {
+					"rotation": {
+						"vector": [0, 0, 0]
+					},
+					"position": {
+						"0.0": {
+							"vector": [0, -32, 0]
+						},
+						"1.5": {
+							"vector": [0, 0, 0],
+							"easing": "easeOutQuad"
+						}
+					}
+				},
+				"leftarm": {
+					"rotation": {
+						"vector": [0, 0, 90]
+					}
+				},
+				"rightarm": {
+					"rotation": {
+						"vector": [0, 0, -90]
+					}
+				}
+			}
+		}
+	},
+	"geckolib_format_version": 2
+}

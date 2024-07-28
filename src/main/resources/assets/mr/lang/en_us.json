@@ -1,0 +1,15 @@
+{
+  "default": "",
+  "itemgroup.mr": "MR",
+  "item.mr.scarlet_cord":"Scarlet Cord",
+  "item.mr.end_protector_spawn_egg": "End Protector Spawn Egg",
+  "item.mr.scarlet_phantom_spawn_egg": "Scarlet Phantom Spawn Egg",
+  "item.mr.shadow_spawn_egg": "Shadow Spawn Egg",
+  "item_introduce.scarlet_cord": "Blood stained diamond, eager to return to the stage",
+  "block.mr.shixiang": "figure in stone",
+  "entity.mr.end_protector": "End Protector",
+  "entity.mr.scarlet_phantom": "Scarlet Phantom",
+  "entity.mr.shadow": "Scarlet Shadow",
+  "sounds.mr.dong": "figure in stone:dong",
+  "textkey.end_protector_summon": "Your blasphemy towards the end has caused His dissatisfaction"
+}

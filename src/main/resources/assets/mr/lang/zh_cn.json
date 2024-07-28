@@ -1,0 +1,15 @@
+{
+  "default": "",
+  "itemgroup.mr": "圣猎大会",
+  "item.mr.scarlet_cord":"猩红核心",
+  "item.mr.end_protector_spawn_egg": "末地守护者刷怪蛋",
+  "item.mr.scarlet_phantom_spawn_egg": "猩红剧影刷怪蛋",
+  "item.mr.shadow_spawn_egg": "骇影刷怪蛋",
+  "item_introduce.scarlet_cord": "染血的宝钻，渴望着回到它的舞台",
+  "block.mr.shixiang": "石像",
+  "entity.mr.end_protector": "末地守护者",
+  "entity.mr.scarlet_phantom": "猩红孤钻",
+  "entity.mr.shadow": "骇影",
+  "sounds.mr.dong": "石像:瞪眼",
+  "textkey.end_protector_summon": "你对末地的亵渎引起了祂的不满"
+}
